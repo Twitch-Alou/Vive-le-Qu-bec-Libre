@@ -1,0 +1,11 @@
+# Force l'utilisation de LF en interne (Git) et CRLF dans le working directory sous Windows
+* text=auto
+
+# Garder les fins de ligne LF pour tous les fichiers de script
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+
+# Garder les fins de ligne CRLF pour les fichiers batch
+*.bat text eol=crlf
+*.cmd text eol=crlf
